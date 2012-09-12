@@ -11,7 +11,7 @@
 #include <vector>
 #include <algorithm>
 #include <sstream>
-#include <assert.h>
+#include <cassert>
 using namespace std;
 typedef long long ll;
 typedef long double ld;
@@ -33,9 +33,6 @@ typedef vector<ii> vii;
 #define present(c,x) ((c).find(x) != (c).end()) 
 #define cpresent(c,x) (find(all(c),x) != (c).end()) 
 #define WATCH(x) {cout<<__FILE__<<":"<<__LINE__<<":WATCHING:"<<#x<<": ";tr(x, it){cout<<*it<<", ";}cout<<endl;}
-#define PEEK(x) {cout<<#x<<"="<<x;}
-#define GI ({int t;scanf("%d",&t);t;})
-#define GF ({float t;scanf("%f",&t);t;})
 
 #define READ2(x,y) while ( (cin >> x) && (cin >> y) && (x|y) )
 #define READCase int cases; cin >> cases; while (cases--)
